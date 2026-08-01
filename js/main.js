@@ -82,6 +82,28 @@
     if (e.key === "Escape" && lightbox.classList.contains("open")) closeLightbox();
   });
 
+  /* ---------- Trailer ----------
+     A poster stands in for the player until it is clicked, so YouTube loads
+     nothing (and sets no cookies) unless someone actually wants the video.
+     Portrait cut on phones, landscape cut everywhere else. */
+  document.querySelectorAll(".g-video").forEach((box) => {
+    const trigger = box.querySelector(".g-video-btn");
+    if (!trigger) return;
+    trigger.addEventListener("click", () => {
+      const portrait = window.matchMedia("(max-width: 720px)").matches;
+      const id = portrait ? box.dataset.videoTall : box.dataset.videoWide;
+      if (!id) return;
+      const frame = document.createElement("iframe");
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1`;
+      frame.title = trigger.getAttribute("aria-label") || "Trailer";
+      frame.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+      frame.allowFullscreen = true;
+      frame.loading = "lazy";
+      box.classList.add("playing", portrait ? "portrait" : "landscape");
+      box.replaceChildren(frame);
+    });
+  });
+
   /* ---------- Hero particles ---------- */
   const canvas = document.getElementById("fx");
   if (!canvas || reduceMotion) return;

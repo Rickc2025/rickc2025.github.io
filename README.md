@@ -7,12 +7,15 @@ https://rickc2025.github.io/
 
 | Path | What it is |
 |---|---|
-| `index.html` | Studio site (hero, games, about, contact) |
-| `css/style.css`, `js/main.js` | Styling and animations (no build step, no frameworks) |
+| `index.html` | Studio site (hero, games, studio, contact) |
+| `css/style.css` | All styling and animations (no build step, no frameworks) |
+| `js/main.js` | Nav, scroll reveals, screenshot lightbox, trailer, hero particles |
+| `js/i18n.js` | Language switching |
+| `i18n/*.json` | One file per language |
 | `privacy/drumhit/` | DrumHit privacy policy |
 | `privacy/tower-to-space/` | Tower To Space privacy policy |
 | `privacy/wobbins-hide-and-hue/` | Wobbins: Hide & Hue privacy policy |
-| `assets/` | Optimized logos, icons, feature art, screenshots |
+| `assets/` | Optimised logos, icons, feature art, screenshots, trailer posters |
 | `app-ads.txt` | AdMob verification — **do not remove** |
 | `404.html` | Branded not-found page |
 
@@ -32,7 +35,38 @@ When Tower To Space or Wobbins goes live on Google Play, replace its
 `data-play-url`. (The chips are deliberately not links today — the listings
 don't exist yet, and clicking through to a Google Play 404 looks broken.)
 
+## Languages
+
+English lives directly in `index.html`; every other language is a JSON file in
+`i18n/`, fetched only when someone picks it, so a default visit downloads no
+translation data at all.
+
+**To change English copy**, edit `index.html` — then regenerate the translation
+source so it cannot drift:
+
+```bash
+python tools/extract-strings.py
+```
+
+That rewrites `i18n/en.json` from the page. Any key you add needs a matching
+`data-i18n="some.key"` attribute in the HTML, and the same key adding to each
+`i18n/<code>.json`. A key missing from a translation falls back to English
+rather than rendering blank.
+
+Language is chosen in this order: `?lang=` in the URL, then the visitor's saved
+choice, then their browser language, then English.
+
+## Trailer
+
+The DrumHit card shows a poster image, not a YouTube player. The player is only
+created when someone clicks it, so YouTube loads nothing and sets no cookies
+otherwise. Desktop gets the landscape cut, phones get the vertical one — the two
+video IDs live in `data-video-wide` / `data-video-tall` on `#drumhitVideo`.
+
+## Notes
+
 The older standalone policy pages (`Rickc2025/drumhit-privacy`,
 `Rickc2025/tower-to-space-privacy`) are still live and untouched, so any Play Console
 links pointing at them keep working. The copies under `/privacy/` here are the same
-policies restyled for the site.
+policies restyled for the site. The privacy pages are intentionally English-only —
+they are the legal text submitted to Google Play.
