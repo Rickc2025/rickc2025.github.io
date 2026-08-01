@@ -1,0 +1,68 @@
+{
+  "about": {
+    "kicker": "El estudio",
+    "p1": "Porque nunca se pensaron como un conjunto. DrumHit salió de años detrás de una batería real y de las ganas de tocar de verdad encima de una canción. Tower To Space empezó como un prototipo rápido que se negaba a aburrir. Hide &amp; Hue nació de una sola pregunta: ¿y si pudieras pintarte del color exacto de la pared?",
+    "p2": "Sonexa Game Studios es pequeño e independiente. El código, el arte, la música y el sonido salen de la misma mesa. Eso es lento, pero también quiere decir que no se publica nada hasta que aguanta con una sola mano en un móvil de verdad.",
+    "title": "Por qué los juegos no se parecen en nada",
+    "v1d": "Un fill de batería o un bloque que cae: ajustamos los milisegundos hasta que cuadra.",
+    "v1t": "El timing por encima de todo",
+    "v2d": "Código, arte, música y sonido, todo desde la misma mesa.",
+    "v2t": "Hecho en casa",
+    "v3d": "Probado con una mano, en dispositivos reales y con mala conexión.",
+    "v3t": "Pensado para un móvil de verdad"
+  },
+  "contact": {
+    "button": "Escríbenos un correo",
+    "kicker": "Contacto",
+    "sub": "El estudio es lo bastante pequeño como para que tu mensaje llegue a quien lo ha hecho. Sobre todo los fallos: mándanoslos.",
+    "title": "Fallos, dudas, récords"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "games": "Juegos",
+    "more": "Más",
+    "note": "Un estudio de videojuegos independiente. Y más en camino.",
+    "privacy": "Privacidad",
+    "rights": "© 2026 Sonexa Game Studios. Todos los derechos reservados."
+  },
+  "games": {
+    "comingSoon": "Próximamente en",
+    "drumhit": {
+      "desc": "Hecho por un batería que quería tocar de verdad, no dar toquecitos. Toca tú cada bombo, caja, tom, crash y charles, improvisa a tu aire en el Modo Libre o importa una canción desde tu dispositivo y crea su partitura nota a nota en el editor.",
+      "genre": "Ritmo · Música",
+      "tagline": "La música suena. La batería la pones tú."
+    },
+    "kicker": "Nuestros juegos",
+    "privacy": "Privacidad",
+    "sub": "Géneros distintos, la misma obsesión: ese medio segundo en el que un juego funciona o no.",
+    "title": "Lo que hemos hecho hasta ahora",
+    "tower": {
+      "desc": "Los bloques se deslizan por la pantalla y un toque los suelta. Si encaja limpio, el combo sigue vivo; si fallas, el bloque se recorta y se queda más estrecho. La subida arranca en el jardín de una casa, atraviesa las nubes y los aviones que pasan, y sale a la oscuridad.",
+      "genre": "Arcade · Un toque",
+      "tagline": "Toca, apila y levanta tu torre hasta el espacio."
+    },
+    "watchTrailer": "Ver el tráiler",
+    "wobbins": {
+      "desc": "Controlas a un Wobbin de peluche rechoncho que se pinta del color exacto de las paredes y los muebles para desaparecer a la vista de todos. El buscador caza en primera persona con una pistola de pintura, y cada jugador al que pilla se une a la caza. Partidas rápidas, salas privadas, bots que se camuflan y un armario lleno de gorros.",
+      "genre": "Multijugador online · Esconderse &amp; buscar",
+      "tagline": "El escondite con truco: píntate del color de la pared."
+    }
+  },
+  "hero": {
+    "ctaContact": "Escríbenos",
+    "ctaGames": "Ver los juegos",
+    "scroll": "Desliza",
+    "sub": "Un estudio independiente que trabaja en el género que pida cada idea y la lleva hasta el final.",
+    "tagline": "Hacemos los juegos a los que queremos jugar"
+  },
+  "meta": {
+    "description": "Estudio de videojuegos independiente detrás de DrumHit, Wobbins: Hide & Hue y Tower To Space. Ritmo, arcade y multijugador para Android, y más en camino.",
+    "ogDescription": "Estudio de videojuegos independiente. Juegos de ritmo, arcade y multijugador para Android.",
+    "title": "Sonexa Game Studios — Juegos móviles independientes"
+  },
+  "nav": {
+    "about": "Estudio",
+    "contact": "Contacto",
+    "games": "Juegos"
+  }
+}

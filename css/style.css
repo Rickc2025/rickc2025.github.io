@@ -143,7 +143,7 @@ h1, h2, h3 { line-height: 1.15; }
   z-index: 60;
 }
 .lang-menu.open { opacity: 1; visibility: visible; transform: none; }
-.lang-menu button {
+.lang-menu a {
   display: block;
   width: 100%;
   text-align: left;
@@ -157,9 +157,9 @@ h1, h2, h3 { line-height: 1.15; }
   cursor: pointer;
   transition: color 0.15s, background 0.15s;
 }
-.lang-menu button:hover { color: var(--text); background: rgba(244, 244, 245, 0.07); }
-.lang-menu button:focus-visible { outline: 2px solid var(--violet); outline-offset: -2px; }
-.lang-menu button.on { color: var(--text); background: rgba(139, 92, 246, 0.18); font-weight: 700; }
+.lang-menu a:hover { color: var(--text); background: rgba(244, 244, 245, 0.07); }
+.lang-menu a:focus-visible { outline: 2px solid var(--violet); outline-offset: -2px; }
+.lang-menu a.on { color: var(--text); background: rgba(139, 92, 246, 0.18); font-weight: 700; }
 
 .nav-burger {
   display: none;

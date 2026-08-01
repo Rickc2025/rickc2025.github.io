@@ -1,0 +1,68 @@
+{
+  "about": {
+    "kicker": "Das Studio",
+    "p1": "Weil sie nie als Reihe gedacht waren. DrumHit entstand aus Jahren hinter einem echten Schlagzeug und dem Drang, wirklich zu einem Song mitzuspielen. Tower To Space fing als schneller Prototyp an, der einfach nicht langweilig werden wollte. Hide &amp; Hue begann mit einer Frage: Was, wenn du dich in exakt der Farbe der Wand anmalen könntest?",
+    "p2": "Sonexa Game Studios ist klein und unabhängig. Code, Grafik, Musik und Sound kommen alle vom selben Schreibtisch – das ist langsam, heißt aber auch: Nichts erscheint, bevor es sich einhändig auf einem echten Handy bewährt hat.",
+    "title": "Warum sich die Spiele kein bisschen ähneln",
+    "v1d": "Ob Drum-Fill oder fallender Block – wir feilen an den Millisekunden, bis es sitzt.",
+    "v1t": "Timing ist alles",
+    "v2d": "Code, Grafik, Musik und Sound, alles vom selben Schreibtisch.",
+    "v2t": "Alles selbst gemacht",
+    "v3d": "Einhändig getestet, auf echten Geräten, bei schlechter Verbindung.",
+    "v3t": "Für ein echtes Handy gemacht"
+  },
+  "contact": {
+    "button": "Schreib uns eine E-Mail",
+    "kicker": "Kontakt",
+    "sub": "Das Studio ist klein genug, dass deine Nachricht bei der Person landet, die das Ding gemacht hat. Vor allem Bug-Reports – schick sie uns.",
+    "title": "Bugs, Fragen, Highscores"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "games": "Spiele",
+    "more": "Mehr",
+    "note": "Ein unabhängiges Spielestudio. Mehr ist in Arbeit.",
+    "privacy": "Datenschutz",
+    "rights": "© 2026 Sonexa Game Studios. Alle Rechte vorbehalten."
+  },
+  "games": {
+    "comingSoon": "Demnächst bei",
+    "drumhit": {
+      "desc": "Von einem Schlagzeuger entwickelt, der richtig mitspielen wollte, statt nur mitzutippen. Jeden Schlag spielst du selbst – Kick, Snare, Tom, Crash, Hi-Hat. Im Freien Spiel jammst du drauflos, oder du importierst einen Song von deinem Gerät und baust im Editor Note für Note dein eigenes Chart daraus.",
+      "genre": "Rhythmus · Musik",
+      "tagline": "Die Musik läuft. Die Drums sind deine Sache."
+    },
+    "kicker": "Unsere Spiele",
+    "privacy": "Datenschutz",
+    "sub": "Verschiedene Genres, dieselbe Besessenheit – die halbe Sekunde, in der sich ein Spiel richtig anfühlt oder eben nicht.",
+    "title": "Was bisher entstanden ist",
+    "tower": {
+      "desc": "Blöcke gleiten über den Bildschirm, ein Fingertipp lässt sie fallen. Landet einer sauber, lebt deine Combo weiter; setzt du daneben, wird der Block schmaler geschnitten. Der Aufstieg beginnt im Garten hinterm Haus, führt an den Wolken und den vorbeiziehenden Flugzeugen vorbei und weiter hinaus ins Dunkel.",
+      "genre": "Arcade · One-Tap",
+      "tagline": "Tippen, stapeln und deinen Turm bis ins All bauen."
+    },
+    "watchTrailer": "Trailer ansehen",
+    "wobbins": {
+      "desc": "Du spielst einen pummeligen Plüsch-Wobbin, der genau die Farbe von Wänden und Möbeln annimmt und so vor aller Augen verschwindet. Der Sucher jagt aus der Ich-Perspektive mit einer Farbpistole – und wen er trifft, der jagt ab da mit. Dazu schnelle Partien, private Räume, Bots, die sich ebenso tarnen, und ein Kleiderschrank voller Hüte.",
+      "genre": "Online-Multiplayer · Verstecken &amp; Suchen",
+      "tagline": "Versteckspiel mit Twist: Mal dich in der Farbe der Wand an."
+    }
+  },
+  "hero": {
+    "ctaContact": "Schreib uns",
+    "ctaGames": "Spiele ansehen",
+    "scroll": "Scrollen",
+    "sub": "Ein unabhängiges Studio, das in dem Genre arbeitet, das die Idee gerade braucht – und die Sache dann richtig zu Ende bringt.",
+    "tagline": "Wir machen die Spiele, die wir spielen wollen"
+  },
+  "meta": {
+    "description": "Unabhängiges Spielestudio hinter DrumHit, Wobbins: Hide & Hue und Tower To Space. Rhythmus-, Arcade- und Multiplayer-Spiele für Android. Mehr folgt.",
+    "ogDescription": "Unabhängiges Spielestudio. Rhythmus-, Arcade- und Multiplayer-Spiele für Android.",
+    "title": "Sonexa Game Studios – Unabhängige Mobile Games"
+  },
+  "nav": {
+    "about": "Studio",
+    "contact": "Kontakt",
+    "games": "Spiele"
+  }
+}

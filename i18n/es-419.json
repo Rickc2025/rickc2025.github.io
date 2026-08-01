@@ -1,0 +1,68 @@
+{
+  "about": {
+    "kicker": "El estudio",
+    "p1": "Porque nunca se pensaron como un conjunto. DrumHit salió de años detrás de una batería de verdad y de las ganas de tocar en serio sobre una canción. Tower To Space empezó como un prototipo rápido que se negó a volverse aburrido. Hide &amp; Hue nació de una sola pregunta: ¿y si pudieras pintarte del color exacto de la pared?",
+    "p2": "Sonexa Game Studios es pequeño e independiente. El código, el arte, la música y el sonido salen del mismo escritorio — es lento, pero significa que nada se lanza hasta que aguanta con una sola mano en un celular de verdad.",
+    "title": "Por qué los juegos no se parecen en nada",
+    "v1d": "Un fill de batería o un bloque que cae — ajustamos los milisegundos hasta que encaja.",
+    "v1t": "El timing por encima de todo",
+    "v2d": "Código, arte, música y sonido, todo del mismo escritorio.",
+    "v2t": "Hecho en casa",
+    "v3d": "Probado con una sola mano, en dispositivos reales y con mala conexión.",
+    "v3t": "Hecho para un celular de verdad"
+  },
+  "contact": {
+    "button": "Escríbenos un correo",
+    "kicker": "Contacto",
+    "sub": "El estudio es lo suficientemente pequeño para que tu mensaje le llegue a la persona que hizo el juego. Sobre todo los reportes de bugs — mándalos.",
+    "title": "Bugs, preguntas, puntajes altos"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "games": "Juegos",
+    "more": "Más",
+    "note": "Un estudio de videojuegos independiente. Hay más en camino.",
+    "privacy": "Privacidad",
+    "rights": "© 2026 Sonexa Game Studios. Todos los derechos reservados."
+  },
+  "games": {
+    "comingSoon": "Próximamente en",
+    "drumhit": {
+      "desc": "Hecho por un baterista que quería tocar en serio sobre la canción, no solo apretar notas. Golpea tú mismo cada bombo, caja, tom, crash y hi-hat, improvisa libremente en el Modo Libre, o importa una canción desde tu dispositivo y arma su chart nota por nota en el editor.",
+      "genre": "Ritmo · Música",
+      "tagline": "La música suena. La batería depende de ti."
+    },
+    "kicker": "Nuestros juegos",
+    "privacy": "Aviso de privacidad",
+    "sub": "Géneros distintos, la misma obsesión — ese medio segundo en el que un juego se siente bien, o no.",
+    "title": "Lo que hemos hecho hasta ahora",
+    "tower": {
+      "desc": "Los bloques se deslizan por la pantalla y un toque los suelta. Si cae limpio, tu combo sigue vivo; si fallas, el bloque se recorta y queda más delgado. La subida arranca en un patio trasero, deja atrás las nubes y los aviones que cruzan, y sigue hacia la oscuridad.",
+      "genre": "Arcade · Un toque",
+      "tagline": "Toca, apila y construye tu torre hasta el espacio."
+    },
+    "watchTrailer": "Ver el tráiler",
+    "wobbins": {
+      "desc": "Juegas como un Wobbin de peluche regordete que se pinta del color exacto de las paredes y los muebles para desaparecer a plena vista. El buscador caza en primera persona con una pistola de pintura — y cada jugador escondido al que le acierta se suma a la caza. Partidas rápidas, salas privadas, bots que se camuflan y un ropero lleno de gorros.",
+      "genre": "Multijugador en línea · Esconderse &amp; buscar",
+      "tagline": "Las escondidas, pero con truco: píntate del color de la pared."
+    }
+  },
+  "hero": {
+    "ctaContact": "Contáctanos",
+    "ctaGames": "Ver los juegos",
+    "scroll": "Desliza",
+    "sub": "Un estudio independiente que trabaja en el género que pida cada idea — y lo termina como se debe.",
+    "tagline": "Hacemos los juegos que queremos jugar"
+  },
+  "meta": {
+    "description": "Estudio independiente de videojuegos detrás de DrumHit, Wobbins: Hide & Hue y Tower To Space. Ritmo, arcade y multijugador para Android, y más en camino.",
+    "ogDescription": "Estudio independiente de videojuegos. Ritmo, arcade y multijugador para Android.",
+    "title": "Sonexa Game Studios — Juegos móviles independientes"
+  },
+  "nav": {
+    "about": "Estudio",
+    "contact": "Contáctanos",
+    "games": "Juegos"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "about": {
+    "kicker": "Le studio",
+    "p1": "Parce qu'ils n'ont jamais été pensés comme un ensemble. DrumHit vient d'années passées derrière une vraie batterie et de l'envie de jouer pour de vrai sur un morceau. Tower To Space a commencé comme un prototype vite fait qui refusait de devenir lassant. Hide &amp; Hue est né d'une seule question : et si on pouvait se peindre exactement de la couleur du mur ?",
+    "p2": "Sonexa Game Studios est un petit studio indépendant. Le code, les graphismes, la musique et le son viennent tous du même bureau — c'est lent, mais rien ne sort tant que le jeu ne tient pas la route à une main, sur un vrai téléphone.",
+    "title": "Pourquoi nos jeux ne se ressemblent en rien",
+    "v1d": "Un break de batterie ou un bloc qui tombe — on règle les millisecondes jusqu'à ce que ça tombe juste.",
+    "v1t": "Le timing avant tout",
+    "v2d": "Code, graphismes, musique et son : tout vient du même bureau.",
+    "v2t": "Fait maison",
+    "v3d": "Testé à une main, sur de vrais appareils, avec une mauvaise connexion.",
+    "v3t": "Pensé pour un vrai téléphone"
+  },
+  "contact": {
+    "button": "Nous envoyer un e-mail",
+    "kicker": "Contact",
+    "sub": "Le studio est assez petit pour que votre message arrive directement à la personne qui a fait le jeu. Surtout les rapports de bugs — envoyez-les.",
+    "title": "Bugs, questions, records"
+  },
+  "footer": {
+    "contact": "Contact",
+    "games": "Jeux",
+    "more": "Plus",
+    "note": "Un studio de jeux indépendant. D'autres jeux arrivent.",
+    "privacy": "Vie privée",
+    "rights": "© 2026 Sonexa Game Studios. Tous droits réservés."
+  },
+  "games": {
+    "comingSoon": "Bientôt sur",
+    "drumhit": {
+      "desc": "Créé par un batteur qui voulait vraiment jouer, pas juste taper des notes. Frappez vous-même chaque grosse caisse, caisse claire, tom, crash et charleston, improvisez sans contrainte en Mode Libre, ou importez une chanson depuis votre appareil et créez sa partition note par note dans l'éditeur.",
+      "genre": "Rythme · Musique",
+      "tagline": "La musique tourne. La batterie, c'est vous."
+    },
+    "kicker": "Nos jeux",
+    "privacy": "Confidentialité",
+    "sub": "Des genres différents, la même obsession — la demi-seconde où un jeu sonne juste, ou pas.",
+    "title": "Ce qu'on a fait jusqu'ici",
+    "tower": {
+      "desc": "Les blocs défilent à l'écran et une pression les lâche. Posez-les pile et le combo tient ; ratez, et le bloc est rogné et rétrécit. L'ascension part d'un jardin derrière la maison, dépasse les nuages et les avions qui passent, et file dans le noir.",
+      "genre": "Arcade · Un doigt",
+      "tagline": "Appuyez, empilez, montez votre tour jusque dans l'espace."
+    },
+    "watchTrailer": "Voir la bande-annonce",
+    "wobbins": {
+      "desc": "Incarnez un Wobbin, une peluche dodue qui se peint exactement de la couleur des murs et des meubles pour se fondre dans le décor. Le chercheur, lui, chasse en vue à la première personne avec un pistolet à peinture — et chaque joueur qu'il touche rejoint la chasse. Parties rapides, salons privés, bots qui se camouflent et une garde-robe pleine de chapeaux.",
+      "genre": "Multijoueur en ligne · Cache-cache &amp; peinture",
+      "tagline": "Le cache-cache, version peinture : peignez-vous de la couleur du mur."
+    }
+  },
+  "hero": {
+    "ctaContact": "Nous contacter",
+    "ctaGames": "Voir les jeux",
+    "scroll": "Défiler",
+    "sub": "Un studio indépendant qui change de genre selon l'idée — et qui la mène jusqu'au bout.",
+    "tagline": "On fait les jeux auxquels on veut jouer"
+  },
+  "meta": {
+    "description": "Studio indépendant à l'origine de DrumHit, Wobbins: Hide & Hue et Tower To Space. Jeux de rythme, arcade et multijoueur sur Android, et d'autres à venir.",
+    "ogDescription": "Studio de jeux indépendant. Jeux de rythme, arcade et multijoueur sur Android.",
+    "title": "Sonexa Game Studios — Jeux mobiles indépendants"
+  },
+  "nav": {
+    "about": "Studio",
+    "contact": "Nous contacter",
+    "games": "Jeux"
+  }
+}

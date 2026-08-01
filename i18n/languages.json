@@ -1,0 +1,19 @@
+{
+  "comment": "Single source of truth for languages. tools/build-pages.py generates one page per entry; js/i18n.js builds the picker from it. 'path' is the URL folder ('' = site root). 'hreflang' is what search engines are told, which is why short folders like /br/ are fine.",
+  "baseUrl": "https://rickc2025.github.io",
+  "languages": [
+    { "code": "en",     "name": "English",                "path": "",       "hreflang": "en" },
+    { "code": "de",     "name": "Deutsch",                "path": "de",     "hreflang": "de" },
+    { "code": "es",     "name": "Español",                "path": "es",     "hreflang": "es-ES" },
+    { "code": "es-419", "name": "Español Latinoamérica",  "path": "latam",  "hreflang": "es-419" },
+    { "code": "fr",     "name": "Français",               "path": "fr",     "hreflang": "fr" },
+    { "code": "it",     "name": "Italiano",               "path": "it",     "hreflang": "it" },
+    { "code": "ja",     "name": "日本語",                   "path": "jp",     "hreflang": "ja" },
+    { "code": "ko",     "name": "한국어",                   "path": "kr",     "hreflang": "ko" },
+    { "code": "pl",     "name": "Polski",                 "path": "pl",     "hreflang": "pl" },
+    { "code": "pt-BR",  "name": "Português do Brasil",    "path": "br",     "hreflang": "pt-BR" },
+    { "code": "ru",     "name": "Русский",                "path": "ru",     "hreflang": "ru" },
+    { "code": "zh-TW",  "name": "繁體中文",                 "path": "tw",     "hreflang": "zh-Hant" },
+    { "code": "zh-CN",  "name": "简体中文",                 "path": "cn",     "hreflang": "zh-Hans" }
+  ]
+}
