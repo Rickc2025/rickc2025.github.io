@@ -548,39 +548,6 @@ section { padding: 110px 0; }
 .game.tower   { --accent: #38bdf8; --accent-soft: rgba(56, 189, 248, 0.13); }
 .game.wobbins { --accent: #facc15; --accent-soft: rgba(250, 204, 21, 0.11); }
 
-.wobbins-art {
-  position: relative;
-  border-radius: 18px;
-  border: 1px solid var(--line);
-  background:
-    radial-gradient(420px 260px at 80% 10%, rgba(250, 204, 21, 0.16), transparent 60%),
-    radial-gradient(420px 260px at 10% 90%, rgba(74, 222, 128, 0.14), transparent 60%),
-    linear-gradient(160deg, #14141b, #0e0e13);
-  padding: clamp(20px, 3vw, 36px);
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
-}
-.wobbins-art .w-logo {
-  width: min(340px, 80%);
-  margin: 0 auto 18px;
-}
-.wobbins-art .w-chars {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;   /* never stretch items to a sibling's height */
-  gap: 16px;
-}
-.wobbins-art .w-chars img {
-  width: clamp(110px, 38%, 190px);
-  aspect-ratio: 2 / 3;
-  object-fit: cover;         /* uniform tiles by cropping, never stretching */
-  border-radius: 14px;
-  border: 1px solid var(--line);
-  transition: transform 0.3s ease;
-}
-.wobbins-art .w-chars img:hover { transform: translateY(-6px) rotate(-1.5deg); }
-
 /* ---------------- About ---------------- */
 
 .about {
