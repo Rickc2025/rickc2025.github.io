@@ -1,6 +1,6 @@
-# Sonexa Studios — rickc2025.github.io
+# Sonexa Game Studios — rickc2025.github.io
 
-Official website for **Sonexa Studios**, served by GitHub Pages at
+Official website for **Sonexa Game Studios**, served by GitHub Pages at
 https://rickc2025.github.io/
 
 ## Structure

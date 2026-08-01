@@ -1,4 +1,4 @@
-/* Sonexa Studios — interactions */
+/* Sonexa Game Studios — interactions */
 (() => {
   "use strict";
 
