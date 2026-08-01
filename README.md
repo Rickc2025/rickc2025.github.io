@@ -18,11 +18,13 @@ https://rickc2025.github.io/
 
 ## Games on the site
 
+Listed in the order they appear on the page.
+
 | Game | Package | Play Store |
 |---|---|---|
+| Wobbins: Hide & Hue | `com.sonexastudios.hidehue` | Not live yet — non-clickable "Coming soon" chip (`<span class="badge-soon">`) carrying the future listing URL in `data-play-url`. No other call to action. |
 | DrumHit | `com.sonexastudios.drumhit` | **Live** — badge links to the listing |
-| Tower To Space | `com.sonexastudios.towertospace` | Not live yet — non-clickable "Coming soon" chip (`<span class="badge-soon">`) carrying the future listing URL in `data-play-url` |
-| Wobbins: Hide & Hue | `com.sonexastudios.hidehue` | Not live yet — same chip; primary button links to the playable WebGL build at https://hide-and-hue.web.app |
+| Tower To Space | `com.sonexastudios.towertospace` | Not live yet — same chip as Wobbins |
 
 When Tower To Space or Wobbins goes live on Google Play, replace its
 `<span class="badge-soon" data-play-url="...">` in `index.html` with the
