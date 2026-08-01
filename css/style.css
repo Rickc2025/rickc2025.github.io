@@ -718,7 +718,20 @@ section { padding: 110px 0; }
     visibility: visible;
     pointer-events: auto;
   }
-  .nav-links a { padding: 13px 16px; font-size: 1.05rem; }
+  /* block, not inline: inline vertical padding overflows instead of
+     spacing the rows, which made the dropdown items overlap */
+  .nav-links a { display: block; padding: 13px 16px; font-size: 1.05rem; }
+  /* the desktop CTA pill reads as an oversized box in the dropdown list */
+  .nav-links a.nav-cta {
+    color: var(--muted);
+    border: 0;
+    background: none;
+  }
+  .nav-links a.nav-cta:hover {
+    color: var(--text);
+    background: rgba(244, 244, 245, 0.06);
+    box-shadow: none;
+  }
   .hero-icons { gap: 16px; margin-top: 44px; }
   .hero-icons a { width: 54px; height: 54px; }
   .g-shots img { height: 150px; }
