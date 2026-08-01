@@ -514,16 +514,6 @@ section { padding: 110px 0; }
 .badge-soon .s1 { font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; }
 .badge-soon .s2 { font-weight: 700; font-size: 1rem; }
 
-.btn-play-web {
-  background: linear-gradient(120deg, #16a34a, #4ade80);
-  color: #062b13;
-  box-shadow: 0 6px 30px rgba(74, 222, 128, 0.35);
-}
-.btn-play-web:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 44px rgba(74, 222, 128, 0.55);
-}
-
 .g-links {
   margin-top: 18px;
   font-size: 0.85rem;
