@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Sonexa Studios</title>
+<meta name="theme-color" content="#0b0b0f">
+<link rel="icon" type="image/png" href="/assets/brand/favicon.png">
+<style>
+  :root { --bg:#0b0b0f; --text:#f4f4f5; --muted:#a2a2ae; --violet:#8b5cf6; --cyan:#22d3ee; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--text); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:24px; overflow-x:hidden; }
+  .glow { position:fixed; width:70vmax; height:70vmax; border-radius:50%; filter:blur(100px); opacity:.25; pointer-events:none; }
+  .glow.v { background:radial-gradient(circle,#7c3aed,transparent 60%); top:-30vmax; left:-20vmax; }
+  .glow.c { background:radial-gradient(circle,#0891b2,transparent 60%); bottom:-30vmax; right:-20vmax; }
+  h1 { font-size:clamp(4rem,18vw,9rem); font-weight:900; letter-spacing:.02em;
+       background:linear-gradient(120deg,var(--violet),var(--cyan)); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; }
+  p { color:var(--muted); margin:10px 0 30px; }
+  a { display:inline-block; padding:13px 26px; border-radius:12px; background:linear-gradient(120deg,#8b5cf6,#6d28d9); color:#fff; text-decoration:none; font-weight:700; box-shadow:0 6px 30px rgba(139,92,246,.4); transition:transform .2s, box-shadow .25s; }
+  a:hover { transform:translateY(-2px); box-shadow:0 10px 44px rgba(139,92,246,.6); }
+  img { width:min(300px,70vw); margin:0 auto 8px; }
+</style>
+</head>
+<body>
+<div class="glow v"></div><div class="glow c"></div>
+<main>
+  <img src="/assets/brand/sonexa-logo-white.png" alt="Sonexa Studios">
+  <h1>404</h1>
+  <p>This level doesn't exist — yet.</p>
+  <a href="/">Back to home base</a>
+</main>
+</body>
+</html>

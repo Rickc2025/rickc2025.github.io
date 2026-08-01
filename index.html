@@ -3,19 +3,256 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rickc2025 Developer Site</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 760px; margin: 48px auto; padding: 0 16px; line-height: 1.6; color: #222; }
-    a { color: #0b57d0; }
-    code { background: #f3f4f6; padding: 2px 6px; border-radius: 6px; }
-  </style>
+  <title>Sonexa Studios — Indie Games Made With Heart</title>
+  <meta name="description" content="Sonexa Studios is an independent game studio behind DrumHit, Tower To Space, and Wobbins: Hide & Hue. Rhythm, arcade, and cozy multiplayer games for mobile.">
+  <meta property="og:title" content="Sonexa Studios">
+  <meta property="og:description" content="Indie game studio behind DrumHit, Tower To Space, and Wobbins: Hide & Hue.">
+  <meta property="og:image" content="https://rickc2025.github.io/assets/brand/og-image.png">
+  <meta property="og:url" content="https://rickc2025.github.io/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b0b0f">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="icon" type="image/png" href="/assets/brand/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Sonexa Studios",
+    "url": "https://rickc2025.github.io/",
+    "logo": "https://rickc2025.github.io/assets/brand/sonexa-logo.png",
+    "email": "akosiricardocosta@gmail.com",
+    "description": "Independent game studio behind DrumHit, Tower To Space, and Wobbins: Hide & Hue."
+  }
+  </script>
 </head>
 <body>
-  <h1>Rickc2025</h1>
-  <p>Developer website for app support and app-ads.txt verification.</p>
-  <ul>
-    <li><a href="/app-ads.txt">app-ads.txt</a></li>
-    <li><a href="https://rickc2025.github.io/tower-to-space-privacy/">Tower to Space Privacy Policy</a></li>
-  </ul>
+
+  <nav class="nav" id="nav">
+    <div class="wrap">
+      <a class="nav-logo" href="#top" aria-label="Sonexa Studios — home">
+        <img src="/assets/brand/sonexa-logo-white.png" alt="Sonexa Studios">
+      </a>
+      <button class="nav-burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navlinks">
+        <li><a href="#games">Games</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <canvas id="fx" aria-hidden="true"></canvas>
+    <div class="hero-glow violet" aria-hidden="true"></div>
+    <div class="hero-glow cyan" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <img class="hero-logo" src="/assets/brand/sonexa-logo-white.png" alt="Sonexa Studios" width="937" height="238">
+      <h1 class="hero-tag">Games made with heart</h1>
+      <p class="hero-sub">An independent studio crafting rhythm, arcade, and cozy multiplayer worlds — built by hand, tuned by feel.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#games">Explore our games</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+      <div class="hero-icons">
+        <a href="#drumhit" aria-label="DrumHit"><img src="/assets/drumhit/icon.jpg" alt="DrumHit icon" loading="lazy"></a>
+        <a href="#tower" aria-label="Tower To Space"><img src="/assets/tower/icon.jpg" alt="Tower To Space icon" loading="lazy"></a>
+        <a href="#wobbins" aria-label="Wobbins: Hide &amp; Hue"><img src="/assets/wobbins/icon.jpg" alt="Wobbins: Hide &amp; Hue icon" loading="lazy"></a>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">Scroll</div>
+  </header>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>DrumHit</span><span class="solid">Tower To Space</span><span>Wobbins: Hide &amp; Hue</span><span class="solid">Sonexa Studios</span>
+      <span>DrumHit</span><span class="solid">Tower To Space</span><span>Wobbins: Hide &amp; Hue</span><span class="solid">Sonexa Studios</span>
+    </div>
+  </div>
+
+  <main>
+    <section id="games">
+      <div class="wrap">
+        <div class="games-head reveal">
+          <span class="sec-kicker">Our games</span>
+          <h2 class="sec-title">Three worlds, one studio</h2>
+          <p class="sec-sub">Every Sonexa game starts with a feeling we want you to have — the groove of a drum kit, the tension of a perfect drop, the giggle of hiding in plain sight.</p>
+        </div>
+
+        <!-- DrumHit -->
+        <article class="game drumhit reveal" id="drumhit">
+          <div class="g-media">
+            <img class="g-art" src="/assets/drumhit/feature.jpg" alt="DrumHit — neon rhythm game key art" width="1024" height="500">
+            <div class="g-shots" aria-label="DrumHit screenshots">
+              <button class="shot-btn" type="button"><img src="/assets/drumhit/Screenshot_20260616_222017.jpg" alt="DrumHit main menu" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/drumhit/Screenshot_20260616_222416.jpg" alt="DrumHit free mode drum kit" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/drumhit/Screenshot_20260616_222053.jpg" alt="DrumHit gameplay chart" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/drumhit/Screenshot_20260616_222235.jpg" alt="DrumHit results screen" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/drumhit/Screenshot_20260616_222326.jpg" alt="DrumHit chart editor" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/drumhit/Screenshot_20260616_222257.jpg" alt="DrumHit song library" loading="lazy"></button>
+            </div>
+          </div>
+          <div class="g-body">
+            <div class="g-head">
+              <img class="g-icon" src="/assets/drumhit/icon.jpg" alt="" aria-hidden="true">
+              <div>
+                <h3 class="g-title">DrumHit</h3>
+                <span class="g-genre">Rhythm · Music</span>
+              </div>
+            </div>
+            <p class="g-tag">The music plays, but the drums are up to you.</p>
+            <p class="g-desc">A rhythm game built by a real drummer. Perform every kick, snare, tom, crash, and hi-hat yourself, jam in Free Mode, or import your own songs and craft custom drum charts with the built-in editor.</p>
+            <div class="g-actions">
+              <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.sonexastudios.drumhit" target="_blank" rel="noopener">
+                <img src="/assets/brand/google-play-badge.png" alt="Get DrumHit on Google Play">
+              </a>
+            </div>
+            <p class="g-links"><a href="/privacy/drumhit/">Privacy policy</a></p>
+          </div>
+        </article>
+
+        <!-- Tower To Space -->
+        <article class="game tower flip reveal" id="tower">
+          <div class="g-media">
+            <img class="g-art" src="/assets/tower/feature.jpg" alt="Tower To Space — stack blocks from the backyard to the stars" width="1024" height="500" loading="lazy">
+            <div class="g-shots" aria-label="Tower To Space screenshots">
+              <button class="shot-btn" type="button"><img src="/assets/tower/shot1.jpg" alt="Tower To Space title screen" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/tower/shot2.jpg" alt="Tower To Space — stacking in space" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/tower/shot3.jpg" alt="Tower To Space — dropping a block" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/tower/shot4.jpg" alt="Tower To Space — a tall tower at night" loading="lazy"></button>
+              <button class="shot-btn" type="button"><img src="/assets/tower/shot5.jpg" alt="Tower To Space — building the base" loading="lazy"></button>
+            </div>
+          </div>
+          <div class="g-body">
+            <div class="g-head">
+              <img class="g-icon" src="/assets/tower/icon.jpg" alt="" aria-hidden="true">
+              <div>
+                <h3 class="g-title">Tower To Space</h3>
+                <span class="g-genre">Arcade · One-tap</span>
+              </div>
+            </div>
+            <p class="g-tag">Tap, stack, and build your tower all the way to space.</p>
+            <p class="g-desc">Blocks glide across the screen — tap to drop them onto your tower. Nail perfect drops to keep your combo alive, or watch your block get trimmed thinner. Climb from a sunny backyard past clouds and airplanes into a starry sky.</p>
+            <div class="g-actions">
+              <span class="badge-soon" data-play-url="https://play.google.com/store/apps/details?id=com.sonexastudios.towertospace">
+                <span class="s1">Coming soon to</span>
+                <span class="s2">Google Play</span>
+              </span>
+            </div>
+            <p class="g-links"><a href="/privacy/tower-to-space/">Privacy policy</a></p>
+          </div>
+        </article>
+
+        <!-- Wobbins: Hide & Hue -->
+        <article class="game wobbins reveal" id="wobbins">
+          <div class="g-media">
+            <div class="wobbins-art">
+              <img class="w-logo" src="/assets/wobbins/logo.png" alt="Wobbins: Hide &amp; Hue logo">
+              <div class="w-chars">
+                <img src="/assets/wobbins/wobbin-front.jpg" alt="A Wobbin character — concept art" loading="lazy">
+                <img src="/assets/wobbins/wobbin-2.jpg" alt="A hiding Wobbin — concept art" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="g-body">
+            <div class="g-head">
+              <img class="g-icon" src="/assets/wobbins/icon.jpg" alt="" aria-hidden="true">
+              <div>
+                <h3 class="g-title">Wobbins: Hide &amp; Hue</h3>
+                <span class="g-genre">Cozy multiplayer · Party</span>
+              </div>
+            </div>
+            <p class="g-tag">Hide-and-seek with a twist: paint yourself the color of the wall.</p>
+            <p class="g-desc">Play a chunky plush Wobbin that paints itself the exact color of walls and furniture to vanish in plain sight. The seeker hunts in first person with a paint gun — and every hider they tag joins the hunt. Quick matches, private rooms, camouflaging bots, and a wardrobe full of hats.</p>
+            <div class="g-actions">
+              <a class="btn btn-play-web" href="https://hide-and-hue.web.app" target="_blank" rel="noopener">▶&nbsp; Play free in your browser</a>
+              <span class="badge-soon" data-play-url="https://play.google.com/store/apps/details?id=com.sonexastudios.hidehue">
+                <span class="s1">Coming soon to</span>
+                <span class="s2">Google Play</span>
+              </span>
+            </div>
+            <p class="g-links"><a href="/privacy/wobbins-hide-and-hue/">Privacy policy</a></p>
+            <p class="g-note">Character art shown is early concept art.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap about-grid">
+        <div class="about-copy reveal">
+          <span class="sec-kicker">About us</span>
+          <h2 class="sec-title">Small studio.<br>Big feelings.</h2>
+          <p><strong>Sonexa Studios</strong> is an independent game studio making mobile games with personality. No big teams, no committees — just hands-on craft, from the first sketch to the last sound effect.</p>
+          <p>Our games start as things we personally love: a drummer's itch to play along with every song, the simple joy of stacking blocks a little too high, the childhood thrill of hide-and-seek. Then we polish them until they feel just right.</p>
+        </div>
+        <div class="values">
+          <div class="value reveal" style="--rd:.05s"><h3><span>🥁</span>Feel first</h3><p>If it doesn't feel great in your hands within five seconds, it's not done.</p></div>
+          <div class="value reveal" style="--rd:.15s"><h3><span>🛠️</span>Handmade</h3><p>Art, code, music, and design crafted in-house, iterated until they click.</p></div>
+          <div class="value reveal" style="--rd:.25s"><h3><span>🎈</span>Playful at the core</h3><p>From neon stages to plush hide-and-seek, our worlds are built for smiles.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap reveal">
+        <span class="sec-kicker">Contact</span>
+        <h2 class="sec-title">Say hello</h2>
+        <p class="sec-sub">Feedback, bug reports, business, or just want to share your high score? We read everything.</p>
+        <a class="btn btn-primary" href="mailto:akosiricardocosta@gmail.com">✉&nbsp; Email Sonexa Studios</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div>
+        <a class="footer-logo" href="#top"><img src="/assets/brand/sonexa-logo-white.png" alt="Sonexa Studios"></a>
+        <p class="footer-note">Independent game studio crafting rhythm, arcade, and cozy multiplayer experiences.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h3>Games</h3>
+          <ul>
+            <li><a href="#drumhit">DrumHit</a></li>
+            <li><a href="#tower">Tower To Space</a></li>
+            <li><a href="#wobbins">Wobbins: Hide &amp; Hue</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Privacy</h3>
+          <ul>
+            <li><a href="/privacy/drumhit/">DrumHit</a></li>
+            <li><a href="/privacy/tower-to-space/">Tower To Space</a></li>
+            <li><a href="/privacy/wobbins-hide-and-hue/">Wobbins: Hide &amp; Hue</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>More</h3>
+          <ul>
+            <li><a href="mailto:akosiricardocosta@gmail.com">Contact</a></li>
+            <li><a href="/app-ads.txt">app-ads.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <div class="wrap copyright">© 2026 Sonexa Studios. All rights reserved.</div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <img id="lightboxImg" src="" alt="Screenshot">
+  </div>
+
+  <script src="/js/main.js" defer></script>
 </body>
 </html>
