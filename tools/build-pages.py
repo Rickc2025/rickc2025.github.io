@@ -149,6 +149,34 @@ def main():
         label = "/" if not path else f"/{path}/"
         print(f"  {code:<7} -> {label}")
 
+    # sitemap + robots, generated here so they can never fall out of step with
+    # the language list or the domain
+    urls = []
+    for lang in config["languages"]:
+        loc = f"{base}/{lang['path']}/" if lang["path"] else f"{base}/"
+        alts = "".join(
+            f'\n    <xhtml:link rel="alternate" hreflang="{o["hreflang"]}" '
+            f'href="{base}/{o["path"]}/" />' if o["path"] else
+            f'\n    <xhtml:link rel="alternate" hreflang="{o["hreflang"]}" href="{base}/" />'
+            for o in config["languages"]
+        )
+        urls.append(f"  <url>\n    <loc>{loc}</loc>{alts}\n  </url>")
+    for policy in ("privacy/drumhit", "privacy/tower-to-space", "privacy/wobbins-hide-and-hue"):
+        urls.append(f"  <url>\n    <loc>{base}/{policy}/</loc>\n  </url>")
+
+    (ROOT / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+        + "\n".join(urls)
+        + "\n</urlset>\n",
+        encoding="utf-8",
+    )
+    (ROOT / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n", encoding="utf-8"
+    )
+    print(f"sitemap.xml ({len(urls)} urls) + robots.txt written")
+
     print(f"{len(config['languages'])} pages written" + (f", {problems} skipped" if problems else ""))
     return 1 if problems else 0
 
