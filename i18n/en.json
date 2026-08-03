@@ -1,7 +1,7 @@
 {
   "about": {
     "kicker": "The studio",
-    "p2": "Sonexa Game Studios is small and independent. The code, the art, the music and the sound all come from the same desk, so every detail gets the same care from beginning to end — and a game only ships once it feels right one-handed on a real phone.",
+    "p2": "Sonexa Game Studios is small and independent. The code, the art, the music and the sound all come from the same desk, so every detail gets the same care from beginning to end — and a game only ships once it feels right in your hands.",
     "title": "Made entirely in-house"
   },
   "contact": {
@@ -49,9 +49,9 @@
     "tagline": "We make the games we want to play"
   },
   "meta": {
-    "description": "Independent game studio behind DrumHit, Wobbins: Hide & Hue and Tower To Space. Rhythm, arcade and multiplayer games for Android, with more on the way.",
-    "ogDescription": "Independent game studio. Rhythm, arcade and multiplayer games for Android.",
-    "title": "Sonexa Game Studios — Independent Mobile Games"
+    "description": "Independent game studio behind DrumHit, Wobbins: Hide & Hue and Tower To Space — rhythm, arcade and multiplayer games, out now on Google Play.",
+    "ogDescription": "Independent game studio. Rhythm, arcade and multiplayer games, with more on the way.",
+    "title": "Sonexa Game Studios — Independent Games"
   },
   "nav": {
     "about": "Studio",

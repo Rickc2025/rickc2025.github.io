@@ -1,7 +1,7 @@
 {
   "about": {
     "kicker": "关于工作室",
-    "p2": "Sonexa Game Studios 是一家小而独立的工作室。代码、美术、音乐和音效都在同一张桌子上完成，从头到尾，每一处细节都出自同一双手，带着同一份用心——一款游戏，只有拿真手机单手玩起来手感对了，才会发布出去。",
+    "p2": "Sonexa Game Studios 是一家小而独立的工作室。代码、美术、音乐和音效都出自同一张桌子，从头到尾，每一处细节都同样用心——一款游戏，只有真正上手玩起来手感对了，我们才会把它发布出去。",
     "title": "全部自己做"
   },
   "contact": {
@@ -49,9 +49,9 @@
     "tagline": "我们做自己想玩的游戏"
   },
   "meta": {
-    "description": "DrumHit、Wobbins: Hide & Hue 和 Tower To Space 背后的独立游戏工作室。为 Android 打造节奏、街机与多人游戏，更多作品在路上。",
-    "ogDescription": "独立游戏工作室。为 Android 打造节奏、街机与多人游戏。",
-    "title": "Sonexa Game Studios — 独立手机游戏"
+    "description": "独立游戏工作室，作品有 DrumHit、Wobbins: Hide & Hue 和 Tower To Space。节奏、街机与多人游戏，现已在 Google Play 上架。",
+    "ogDescription": "独立游戏工作室。节奏、街机与多人游戏，更多作品正在路上。",
+    "title": "Sonexa Game Studios — 独立游戏工作室"
   },
   "nav": {
     "about": "工作室",
