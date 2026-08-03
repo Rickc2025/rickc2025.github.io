@@ -699,6 +699,23 @@ section { padding: 110px 0; }
 .contact { text-align: center; }
 .contact .sec-sub { margin: 0 auto 34px; }
 
+/* the address written out, for anyone who would rather copy it than
+   have a mail client thrown at them */
+.contact-email {
+  margin-top: 22px;
+  font-size: 1.02rem;
+  letter-spacing: 0.01em;
+  overflow-wrap: anywhere;
+}
+.contact-email a {
+  color: var(--muted);
+  border-bottom: 1px solid rgba(139, 92, 246, 0.4);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.contact-email a:hover,
+.contact-email a:focus-visible { color: var(--text); border-bottom-color: var(--violet); }
+
 .footer {
   border-top: 1px solid var(--line);
   padding: 48px 0 60px;
