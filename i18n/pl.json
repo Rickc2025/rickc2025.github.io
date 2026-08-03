@@ -1,15 +1,8 @@
 {
   "about": {
     "kicker": "Studio",
-    "p1": "Bo nigdy nie miały tworzyć jednej całości. DrumHit wziął się z lat spędzonych za prawdziwą perkusją i z ochoty, żeby naprawdę zagrać do utworu. Tower To Space powstało jako szybki prototyp, który nie chciał nam się znudzić. Hide &amp; Hue zaczęło się od jednego pytania: a gdyby tak pomalować się dokładnie na kolor ściany?",
-    "p2": "Sonexa Game Studios to małe, niezależne studio. Kod, grafika, muzyka i dźwięk powstają przy tym samym biurku — tak jest wolniej, ale dzięki temu nic nie trafia do sklepu, dopóki się nie obroni na prawdziwym telefonie trzymanym w jednej ręce.",
-    "title": "Dlaczego każda nasza gra wygląda inaczej",
-    "v1d": "Przejście na perkusji czy spadający klocek — szlifujemy milisekundy, aż wszystko wejdzie idealnie.",
-    "v1t": "Timing ponad wszystko",
-    "v2d": "Kod, grafika, muzyka i dźwięk — wszystko przy jednym biurku.",
-    "v2t": "Wszystko własnymi siłami",
-    "v3d": "Testowane jedną ręką, na prawdziwych urządzeniach i na słabym łączu.",
-    "v3t": "Robione pod prawdziwy telefon"
+    "p2": "Sonexa Game Studios to małe, niezależne studio. Kod, grafika, muzyka i dźwięk powstają przy tym samym biurku, dzięki czemu każdy szczegół dopracowujemy z taką samą starannością od początku do końca. Grę wydajemy dopiero wtedy, gdy naprawdę dobrze się w nią gra jedną ręką na prawdziwym telefonie.",
+    "title": "Wszystko robimy sami"
   },
   "contact": {
     "button": "Wyślij nam e-mail",

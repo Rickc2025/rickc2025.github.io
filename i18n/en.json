@@ -1,15 +1,8 @@
 {
   "about": {
     "kicker": "The studio",
-    "p1": "Because they were never planned as a set. DrumHit came out of years behind a real kit and the itch to actually play along with a song. Tower To Space started as a quick prototype that refused to get boring. Hide &amp; Hue began with one question: what if you could paint yourself the exact colour of the wall?",
-    "p2": "Sonexa Game Studios is small and independent. The code, the art, the music and the sound all come from the same desk — which is slow, but it means nothing ships until it holds up one-handed on a real phone.",
-    "title": "Why the games look nothing alike",
-    "v1d": "A drum fill or a falling block — we tune the milliseconds until it lands.",
-    "v1t": "Timing over everything",
-    "v2d": "Code, art, music and sound, all from the same desk.",
-    "v2t": "Made in-house",
-    "v3d": "Tested one-handed, on real devices, on a bad connection.",
-    "v3t": "Built for a real phone"
+    "p2": "Sonexa Game Studios is small and independent. The code, the art, the music and the sound all come from the same desk, so every detail gets the same care from beginning to end — and a game only ships once it feels right one-handed on a real phone.",
+    "title": "Made entirely in-house"
   },
   "contact": {
     "button": "Send us an email",

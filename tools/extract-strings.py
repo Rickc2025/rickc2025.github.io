@@ -64,7 +64,7 @@ def main() -> int:
 
     # warn about languages that would fall back to English on some keys
     for path in sorted(OUT.parent.glob("*.json")):
-        if path.name == "en.json":
+        if path.name in ("en.json", "languages.json"):  # languages.json is config, not copy
             continue
         other = json.loads(path.read_text(encoding="utf-8"))
         flat_other = {}
