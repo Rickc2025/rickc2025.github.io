@@ -27,13 +27,15 @@ Listed in the order they appear on the page.
 |---|---|---|
 | Wobbins: Hide & Hue | `com.sonexastudios.hidehue` | Not live yet — non-clickable "Coming soon" chip (`<span class="badge-soon">`) carrying the future listing URL in `data-play-url`. No other call to action. |
 | DrumHit | `com.sonexastudios.drumhit` | **Live** — badge links to the listing |
-| Tower To Space | `com.sonexastudios.towertospace` | Not live yet — same chip as Wobbins |
+| Tower To Space | `com.sonexastudios.towertospace` | **Live** — badge links to the listing |
 
-When Tower To Space or Wobbins goes live on Google Play, replace its
+When Wobbins goes live on Google Play, replace its
 `<span class="badge-soon" data-play-url="...">` in `index.html` with the
-`play-badge` anchor pattern used by DrumHit, using the URL already stored in
-`data-play-url`. (The chips are deliberately not links today — the listings
-don't exist yet, and clicking through to a Google Play 404 looks broken.)
+`play-badge` anchor pattern the other two use, taking the URL already stored in
+`data-play-url`. (The chip is deliberately not a link until then — the listing
+doesn't exist yet, and clicking through to a Google Play 404 looks broken.)
+Once no `badge-soon` chips remain, the `games.comingSoon` string can be dropped
+from `index.html` and every `i18n/*.json`.
 
 ## Languages
 
