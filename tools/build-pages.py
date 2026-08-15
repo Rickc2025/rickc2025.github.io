@@ -177,6 +177,16 @@ def main():
     )
     print(f"sitemap.xml ({len(urls)} urls) + robots.txt written")
 
+    # CNAME must exist or GitHub Pages unlinks the custom domain and the whole
+    # site answers "Site not found". Losing it once was enough; rewrite it every
+    # build from the same baseUrl the pages are generated against.
+    host = base.split("://", 1)[-1].rstrip("/")
+    cname = ROOT / "CNAME"
+    existing = cname.read_text(encoding="utf-8").strip() if cname.exists() else None
+    if existing != host:
+        cname.write_text(host + "\n", encoding="utf-8")
+        print(f"CNAME {'restored' if existing is None else 'corrected'} -> {host}")
+
     print(f"{len(config['languages'])} pages written" + (f", {problems} skipped" if problems else ""))
     return 1 if problems else 0
 
