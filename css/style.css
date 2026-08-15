@@ -380,37 +380,6 @@ h1, h2, h3 { line-height: 1.15; }
   50% { transform: translateY(7px); opacity: 1; }
 }
 
-/* ---------------- Marquee ---------------- */
-
-.marquee {
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 18px 0;
-  overflow: hidden;
-  background: var(--bg-2);
-}
-.marquee-track {
-  display: flex;
-  width: max-content;
-  animation: marquee 30s linear infinite;
-}
-/* spacing via margin (not flex gap) so -50% equals exactly one copy */
-.marquee span {
-  margin-right: 48px;
-  font-family: "Archivo Black", sans-serif;
-  font-size: 1.05rem;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(244, 244, 245, 0.22);
-}
-.marquee span.solid { color: rgba(244, 244, 245, 0.5); -webkit-text-stroke: 0; }
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
 /* ---------------- Sections ---------------- */
 
 section { padding: 110px 0; }
